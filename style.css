@@ -1,0 +1,116 @@
+body {
+    text-align: center;
+    font-family: Arial;
+    background: #000000;
+}
+
+h1 {
+    background: linear-gradient(180deg, #ff3b3b, #ffd11a, #cc00cc);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.xylophone {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.key {
+    width: 70px;
+    height: 260px;
+    margin: 6px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 15px;
+    cursor: pointer;
+    transition: 0.15s;
+    align-self: center;
+}
+
+.key:nth-child(1) {
+    background: #ff3b3b;
+    height: 240px;
+}
+
+.key:nth-child(2) {
+    background: #ff8c1a;
+    height: 230px;
+}
+
+.key:nth-child(3) {
+    background: #ffd11a;
+    height: 220px;
+}
+
+.key:nth-child(4) {
+    background: #33cc33;
+    height: 210px;
+}
+
+.key:nth-child(5) {
+    background: #009999;
+    height: 200px;
+}
+
+.key:nth-child(6) {
+    background: #4d0099;
+    height: 190px;
+}
+
+.key:nth-child(7) {
+    background: #cc00cc;
+    height: 180px;
+}
+
+.key:nth-child(8) {
+    background: #ff3b3b;
+    height: 170px;
+}
+
+.key:nth-child(9) {
+    background: #ff8c1a;
+    height: 160px;
+}
+
+.key:nth-child(10) {
+    background: #ffd11a;
+    height: 150px;
+}
+
+.key:nth-child(11) {
+    background: #33cc33;
+    height: 140px;
+}
+
+.key:nth-child(12) {
+    background: #009999;
+    height: 130px;
+}
+
+.key:nth-child(13) {
+    background: #4d0099;
+    height: 120px;
+}
+
+.key:nth-child(14) {
+    background: #cc00cc;
+    height: 110px;
+}
+
+.key:nth-child(15) {
+    background: #ff3b3b;
+    height: 100px;
+}
+
+.key:active,
+.key.active {
+    transform: scale(0.95);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4) inset;
+}
